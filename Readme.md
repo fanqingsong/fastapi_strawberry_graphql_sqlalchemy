@@ -35,42 +35,42 @@ To run the project in your local environment::
 
   1. Clone the repository::
 ```
-  $ git clone https://github.com/syedfaisalsaleeem/FastApi-Strawberry-GraphQL-SqlAlchemy-BoilerPlate.git
-  $ cd FastApi-Strawberry-GraphQL-SqlAlchemy-BoilerPlate
+git clone git@github.com:fanqingsong/fastapi_strawberry_graphql_sqlalchemy.git
+cd fastapi_strawberry_graphql_sqlalchemy
 ```
   2. Create and activate a virtual environment::
 ```
-  $ virtualenv env -p python3
-  $ source env/bin/activate
+virtualenv env -p python3
+source env/bin/activate
 ```
   3. Install requirements::
 ```
-  $ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
   4. Run the application::
 ```
-  $ python main_dev.py
+python main_dev.py
 ```
 To run the project using Docker Container:
 
   1. Clone the repository::
 ```
-  $ git clone https://github.com/syedfaisalsaleeem/FastApi-Strawberry-GraphQL-SqlAlchemy-BoilerPlate.git
-  $ cd FastApi-Strawberry-GraphQL-SqlAlchemy-BoilerPlate
+git clone git@github.com:fanqingsong/fastapi_strawberry_graphql_sqlalchemy.git
+cd fastapi_strawberry_graphql_sqlalchemy
 ```
   2. Run this command on CMD::
 ```
-  $ docker-compose up -d --build
+docker-compose up -d --build
 ```
 ## Usage Examples
 
 Launch the fast api server at specified port default 5000 (open the UI at http://localhost:5000/graphql): ::
 
-    $ python main_dev.py
+  python main_dev.py
 
 Launch using docker: ::
 
-    $ docker-compose up -d --build
+  docker-compose up -d --build
 
 ## Tests
 
@@ -110,4 +110,5 @@ $ alembic upgrade head
 ```
 ## License
 
-This project is licensed under the terms of the MIT license. If you have any question about this opinionated list, do not hesitate to contact me [@SyedFaisal](https://www.linkedin.com/in/syedfaisalsaleem/) on Linkedin or open an issue on GitHub.
+This project is licensed under the terms of the MIT license. If you have any question about this opinionated list, do not hesitate to contact me [qsfan@qq.com](mailto:qsfan@qq.com) or open an issue on GitHub.
+
